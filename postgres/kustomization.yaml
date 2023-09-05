@@ -1,0 +1,14 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: dbs
+resources:
+  - namespace.yaml
+  - repository.yaml
+  - pg-secrets.yaml
+  - release.yaml
+secretGenerator:
+  - name: pg-values
+    files: 
+    - values.yaml=pg-values.yaml
+configurations:
+  - "kustomizeconfig.yaml"
