@@ -1,0 +1,15 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: dbs
+resources:
+  - namespace.yaml
+  - repository.yaml
+  - cert.yaml
+  - redis-secrets.yaml
+  - redis-release.yaml
+secretGenerator:
+  - name: redis-values
+    files: 
+    - values.yaml=redis-values.yaml
+configurations:
+  - "kustomizeconfig.yaml"
