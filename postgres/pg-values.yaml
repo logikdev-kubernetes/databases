@@ -1,3 +1,7 @@
+image:
+    registry: ENC[AES256_GCM,data:l9oHfuYnvoAO,iv:7bHFmOQMBZe5NBkDym2JVcIqNdlee9jKbcodrH4WntI=,tag:zCGlC9JuQ554BOFYgKt3Zw==,type:str]
+    repository: ENC[AES256_GCM,data:hvYV8jIlJCHip2AH2iwpFtZF,iv:gyiQ7dUxDwDWNPVymkiAQA+N6cqiMhZbgNE8QP/Tl0U=,tag:UlPjpP1wWRAGwljW6bIZEw==,type:str]
+    tag: ENC[AES256_GCM,data:f1zPSSH6p74=,iv:spM6ErUoZahhCqWeOnBAWcdQHqtxGDRSm7sbJ6Vaq7g=,tag:VUSq4OAhRi8J9qXIFV7/UQ==,type:str]
 global:
     storageClass: ENC[AES256_GCM,data:AMYd8Fwfym8=,iv:AtiDVf5Ft+sLZnjIsJ+RJ5nFfe2Mn3YG2kck+cqbMbA=,tag:Vt2pxoDCXUYoF6967CPEDA==,type:str]
     postgresql:
@@ -18,8 +22,8 @@ sops:
     azure_kv: []
     hc_vault: []
     age: []
-    lastmodified: "2023-09-04T19:01:31Z"
-    mac: ENC[AES256_GCM,data:mebpkEyZbYyWBsoLmtie1nCcMz1k65ZUQsTnzIPcnTGVq+9ONi4m9HhafwWCPM39sGbZZ9DIIfCPuhvM1BJDDtT9vYrCYfzskOSNDqJpXM4aGpwLvUfVCoY/1kprdAAnXjOAeqeJlsgyZoKSMynZUwIA65bkbG+dUTX1omFnFlc=,iv:IiIyDLBba5Z2PigybSvtf/cY1CPSZ0Y37fVw0IPPLLM=,tag:VpJlMI5jSeGVrlb6+XeHZQ==,type:str]
+    lastmodified: "2023-10-08T10:17:44Z"
+    mac: ENC[AES256_GCM,data:NeuQmLxNL+6W7HV7jSCJDB4odK7DcqsMdjrxjELTeFdfQeklutTvR0/fZB6a9JvmwTRXduuv89TtBjeT4ioPQJWI+JIHnrATYmE0yj6YUDxZFOXVbjcUrPb3VZ84DmTqGpnTySBumzAFMqynXKvm6i6ZJxekszcGl7ZNSBg3rI4=,iv:lqYR28syde+WxdiTucyFnyDENFPYBeWAs+BFNAzOgKg=,tag:PfAWWF7gw1J8G17CP/VVHA==,type:str]
     pgp:
         - created_at: "2023-09-04T19:01:30Z"
           enc: |
